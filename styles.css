@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    max-width: 60%;
+    height: fit-content;
+    background-color: white;
+}
+
+#titulo {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to top, rgb(91, 93, 211), rgb(43, 182, 38));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#numCaracteres {
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#botao {
+    width: 40%;
+    margin-top: 5px;
+}
