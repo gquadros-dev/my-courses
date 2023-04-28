@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main#relogio {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    background: #222222;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#time {
+    border: 5px solid #F3EFE0 ;
+    border-radius: 20px;
+    padding: 5px 30px;
+    font-size: 7em;
+    color: #22A39F;
+}
+
+@media (max-width: 900px){
+
+}
+
+@media (max-width: 600px) {
+    #relogio {
+        writing-mode: vertical-rl;
+    }
+}

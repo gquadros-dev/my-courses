@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <title>Relógio</title>
+    </head>
+    <body id="clock">
+        <nav>
+
+            <div class="nav-left-side" id="nav-left-side">
+    
+                <div id="div-primeira">
+                    <div class="div-icon"><a href="../index.html"><img src="../imgs/user.png" class="icon"></a></div>
+                </div>
+    
+                <div id="div-segunda">
+                    <div class="div-icon"><a href="../relogio/index.html"></a><img src="../imgs/clock-icon.png" class="icon"></a></div>
+                    <div class="div-icon"><a href="../gerador de senhas/gerador.html"><img src="../imgs/password.png" class="icon"></a></div>
+                    <div class="div-icon"><a href="../calculadora/calculadora.html"></a><img src="../imgs/calculator.png" class="icon"></a></div>
+                    <div class="div-icon"><a href="../Museu/index.html"><img src="../imgs/museum.png" class="icon"></a></div>
+                </div>
+    
+                <div id="div-terceira">
+                    <div class="div-icon"><img src="../imgs/config.png" class="icon"></div>
+                </div>
+    
+            </div>
+    
+            <div class="botao" id="botao">
+    
+                <div class="botao-container">
+                    <img src="../imgs/flecha-direita.png" id="flecha-direita" onclick="inverteImg(), puxaEsquerda()">
+                </div>
+    
+                <div id="botao-container2"></div>
+                <div id="botao-container3"></div>
+            </div>
+    
+        </nav>
+        <main id="relogio">
+            <div id="time"></div>
+        </main>
+    <script src="index.js"></script>
+    <script src="../index.js"></script>
+</html>

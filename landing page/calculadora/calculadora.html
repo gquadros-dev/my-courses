@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calculadora.css">
+        <link rel="stylesheet" href="../styles.css">
+        <title>Document</title>
+    </head>
+    <body id="body">
+        <nav>
+
+            <div class="nav-left-side" id="nav-left-side">
+    
+                <div id="div-primeira">
+                    <div class="div-icon"><a href="../index.html"><img src="../imgs/user.png" class="icon"></a></div>
+                </div>
+    
+                <div id="div-segunda">
+                    <div class="div-icon"><a href="../relogio/index.html"></a><img src="../imgs/clock-icon.png" class="icon"></a></div>
+                    <div class="div-icon"><a href="../gerador de senhas/gerador.html"><img src="../imgs/password.png" class="icon"></a></div>
+                    <div class="div-icon"><a href="calculadora.html"></a><img src="../imgs/calculator.png" class="icon"></a></div>
+                    <div class="div-icon"><a href="../Museu/index.html"><img src="../imgs/museum.png" class="icon"></a></div>
+                </div>
+    
+                <div id="div-terceira">
+                    <div class="div-icon"><img src="../imgs/config.png" class="icon"></div>
+                </div>
+    
+            </div>
+    
+            <div class="botao" id="botao">
+    
+                <div class="botao-container">
+                    <img src="../imgs/flecha-direita.png" id="flecha-direita" onclick="inverteImg(), puxaEsquerda()">
+                </div>
+    
+                <div id="botao-container2"></div>
+                <div id="botao-container3"></div>
+            </div>
+    
+        </nav>
+
+        <main>
+            <div id="output">
+                <div data-previous-operand></div>
+                <div id="current-operand" data-current-operand></div>
+            </div>
+            <div id="calculator-body">
+                <button data-all-clear class="double">AC</button>
+                <button data-delete>DEL</button>
+                <button data-operator>/</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operator>*</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operator>-</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operator>+</button>
+                <button data-number>.</button>
+                <button data-number>0</button>
+                <button data-equals class="double">=</button>
+            </div>
+        </main>
+    
+    </body>
+    <script src="calculadora.js"></script>
+    <script src="../index.js"></script>
+</html>
