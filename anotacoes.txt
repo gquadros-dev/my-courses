@@ -1,0 +1,15 @@
+"main" é uma função, tudo tem que estar dentro dela.
+void é um tipo de função, isso vai ser visto mais para frente.
+
+int = inteiro
+double = fracionários
+
+dart só permite variáveis "nulas" (sem valor) em casos específicos.
+
+com double pode se usar exponenciais, por exemplo, o número 780000000 pode ser escrito também como 780e6
+
+List<tipo de dado> nomeDaLista = lista estática
+List<dynamic> nomeDaLista = Lista dinâmica (multiplos tipos)
+
+var, assim como dynamic, torna as variáveis e listas mais dinâmicas, mas isso perde em performance
+em longo prazo e muitas informações, afeta o desempenho do seu programa.
